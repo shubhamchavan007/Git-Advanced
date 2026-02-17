@@ -1,0 +1,17 @@
+revert simply means rolling back changes after a successfull commit .
+when reverting there are 2 types of statements are found.
+1)revert with no conflict
+  here you revert it for first time or you revert a different file for the first time.
+  example done in merge-pull file
+  commands used:- git revert <id>
+
+2)revert with conflict 
+  here you revert in same file so that to roll back some commits . but you face revert conflict issue ,
+to solve that you use the same command but there is prompt saying "cant revert conflict issue".
+check file for to keep which data in that particular file and exit
+then continue with "git revert --continue" and "git add <file name>".
+
+
+reset
+
+                   
