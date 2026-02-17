@@ -5,4 +5,5 @@ here the data was edited
 pull request does on the gui level of github here we get extra level of security by adding collabrators /reviewers so that before merging it you verify the request.
 
 merge request
+<<<<<<< HEAD
 does on the cmd/terminal level but does not provide extra /level of security like pull request and done
